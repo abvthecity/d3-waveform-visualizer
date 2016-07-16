@@ -1,0 +1,39 @@
+{
+  "name": "d3-waveform-visualizer",
+  "version": "0.0.1",
+  "description": "A d3 front-end component for audio waveform visualization.",
+  "main": "src/d3-waveform.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "build": "gulp",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjiangstar/d3-waveform-visualizer.git"
+  },
+  "keywords": [
+    "d3",
+    "waveform",
+    "visualizer"
+  ],
+  "author": "Andrew Jiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjiangstar/d3-waveform-visualizer/issues"
+  },
+  "homepage": "https://github.com/ninjiangstar/d3-waveform-visualizer#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "promise": "^7.1.1",
+    "serve-static": "^1.11.1",
+    "waveform-data": "^1.5.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
